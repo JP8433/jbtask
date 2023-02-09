@@ -1,0 +1,63 @@
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+  }
+
+  button[type="submit"] {
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="text"][placeholder="Search"] {
+    width: 300px;
+    height: 40px;
+    margin: 10px 10px 20px 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+  }
+
+  li {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    text-align: center;
+  }
+
